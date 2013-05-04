@@ -1,0 +1,48 @@
+Project name: frameworks_base
+ •Dante Russo - gps: fixed singleshot session that doesn't stop
+ •Jurijs Oniscuks - Fix race condition in ActivityThread.completeRemoveProvider()
+ •Peter Nilsson - Can not mark the same content of browser page after copy
+ •franco-c - Merge remote-tracking branch 'slim/jb4.2' into mirage
+ •Muhammed Nazim - Fixed Italian FC
+ •Ian Rogers - Account malloc mmaped pages as native heap.
+ •Jaewan Kim - Fix ListView is not scrolled properly with arrows
+ •Muhammed Nazim - Controlled Logging!
+ •Muhammed Nazim - Fix Derp
+ •gwindlord - Commit I93d9ccf3413722668f1dda08c17ff4435f782400 translated to Russian
+ •Muhammed Nazim - Add Chinese Simplified Translations
+ •Muhammed Nazim - Add Arabic Translations
+ •Muhammed Nazim - Add Spanish(US) Translations
+ •Muhammed Nazim - Add Spanish Translations
+ •Muhammed Nazim - Add Polish Translations
+ •Muhammed Nazim - Add Persian Translations
+ •Muhammed Nazim - Add Italian Translations
+ •Muhammed Nazim - Add Hebrew Translations
+ •Muhammed Nazim - Add German Translations
+ •Muhammed Nazim - Add Dutch Translations
+ •Mirek .enke.k - Add Czech Translations
+ •Muhammed Nazim - Add Chinese Simplified translations
+ •Muhammed Nazim - Add Indonesian Translations
+ •Muhammed Nazim - Add Arabic Translations
+ •tchaari - Fix french translation. Default is phone not tablet :)
+ •Muhammed Nazim - Add French Translations
+ •tchaari - Improve some SystemUI french translations
+ •Lars Greiss - Merge "Fix translation derp" into jb4.2
+ •Lars Greiss - Merge "More Translation Derps" into jb4.2
+ •Lars Greiss - Fix translation derp
+ •Lars Greiss - Merge "MediaScanner behavior on boot (1/3)" into jb4.2
+ •Lars Greiss - Merge "Add Media Tile [1/2]" into jb4.2
+ •Lars Greiss - Merge "Force Enable ADB on Boot" into jb4.2
+ •Muhammed Nazim - Add Media Tile [1/2]
+ •Muhammed Nazim - Force Enable ADB on Boot
+ •Muhammed Nazim - More Translation Derps
+ •franco-c -  QuickSettings: UserTile: Open full contact page
+ •PrimeDirective - boost boost hint
+ •PrimeDirective - write entropy data 4 times a day instead of 8
+ •Sam Mortimer - [1/2] Power connect/disconnect notification support
+ •Michele Primavera - Swiping on the top of full screen apps shows status bar for 10 seconds
+ •Muhammed Nazim - Kill Videos
+ •Muhammed Nazim - Fix Up New Sounds [3/3]
+ •jungheang.lee - Fixed the problem ime invisible status despite being the icon that appears in the statusbar.
+ •Danny Baumann - Don't start keyguard in an attempt to exit it.
+ •Danny Baumann - Don't let apps disable the SIM PIN entry screen.
+ 

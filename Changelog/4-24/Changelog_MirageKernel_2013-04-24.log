@@ -1,0 +1,5 @@
+Project name: MirageKernel
+ •franco-c - tuna_defconfig: MirageKernel v1.6 (Reconcile ak)
+ •franco-c - tuna_defconfig: MirageKernel v1.5 (Reconcile with ak)
+ •Jesper Dangaard Brouer - percpu_counter.h: comment code for better readability
+ 

@@ -1,0 +1,26 @@
+Project name: Settings
+ •franco-c - Merge remote-tracking branch 'slim/jb4.2' into mirage
+ •Lars Greiss - Fix: vietnamese wrong string
+ •Lars Greiss - Fix: Tablets QS setup possible FC
+ •Lars Greiss - Merge "Fix some messed up french translations" into jb4.2
+ •tchaari - Fix some messed up french translations
+ •franco-c - Merge remote-tracking branch 'slim/jb4.2' into mirage
+ •Lars Greiss - Merge "Revert "Added vibration adjustments via Performance"" into jb4.2
+ •Lars Greiss - Merge "Fix Auto brightness Help menu" into jb4.2
+ •Lars Greiss - Merge "Settings: Broadcast ACTION_DATE_CHANGED" into jb4.2
+ •Lars Greiss - Merge "Correctly restore brightness customize dialog hierarchy." into jb4.2
+ •Muhammed Nazim - Fix Auto brightness Help menu
+ •Jorge Ruesga - Settings: Broadcast ACTION_DATE_CHANGED
+ •Danny Baumann - Correctly restore brightness customize dialog hierarchy.
+ •blk_jack - Revert "Added vibration adjustments via Performance"
+ •gwindlord - Commit Ia8747f5c17ba0323d3f9fd1433b82d3abbf70b3c translated to Russian
+ •Muhammed Nazim - Add French Translations
+ •Muhammed Nazim - Add Viatnamese Translations
+ •Muhammed Nazim - Add Italian Transltions
+ •Muhammed Nazim - Add German Translations
+ •Mirek .enke.k - Add Czech Transltions
+ •Muhammed Nazim - Add Arabic Transltions
+ •Lars Greiss - Merge "Fix translation derps" into jb4.2
+ •blk_jack - Settings: MediaScanner behavior on boot (3/3)
+ •Lars Greiss - Merge "Add Music Tile [2/2]" into jb4.2
+ 

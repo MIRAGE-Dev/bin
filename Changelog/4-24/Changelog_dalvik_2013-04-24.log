@@ -1,0 +1,7 @@
+Project name: dalvik
+ •franco-c - Revert "JIT: Use vmla.f64 instead of vmuld + vaddd."
+ •You Kim - Fix a leak in dvmFreeVfyBasicBlocks
+ •Anders O Nilsson - JIT: Use vmla.f64 instead of vmuld + vaddd.
+ •Elliott Hughes - Abstract methods aren't implementations.
+ •Elliott Hughes - Dump native stacks for all threads in native code.
+ 
