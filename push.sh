@@ -10,19 +10,21 @@ APPS=`echo $DIR | cut -c 38-50`
 #     echo -e $CL_CYN"Pushing commits to "$CL_RST""remote="$CL_CYN"franco" "$CL_RST""branch="$CL_CYN"mirage""$CL_RST
 #     echo -e "REPOSITORY: "$CL_CYN"`echo $REPO`"$CL_RST""
 
+# Git configurations
+BRANCH=`cat .git/HEAD | cut -c 17-30`
 
 if [ "$REPO" == "$FRANCO/frameworks/base" ]; then
      REPO=$FRANCO/frameworks_base_slim
-     echo -e $CL_CYN"Pushing commits to "$CL_RST""remote="$CL_CYN"franco" "$CL_RST""branch="$CL_CYN"mirage""$CL_RST
-     echo -e "REPOSITORY: "$CL_CYN"`echo $REPO`"$CL_RST""
-     git push -u franco mirage
+     echo -e $CL_YLW"Pushing commits to "$CL_RST""remote="$CL_CYN"franco" "$CL_RST""branch="$CL_CYN"$BRANCH""$CL_RST
+     echo -e "REPOSITORY: "$CL_YLW"`echo $REPO`"$CL_RST""
+     git push -u franco $BRANCH
 elif [ "$REPO" == "$FRANCO/packages/apps/$APPS" ]; then
      REPO=$FRANCO/packages_apps_$APPS
-     echo -e $CL_YLW"Pushing commits to "$CL_RST""remote="$CL_CYN"franco" "$CL_RST""branch="$CL_CYN"mirage""$CL_RST
+     echo -e $CL_YLW"Pushing commits to "$CL_RST""remote="$CL_CYN"franco" "$CL_RST""branch="$CL_CYN"$BRANCH""$CL_RST
      echo -e "REPOSITORY: "$CL_YLW"`echo $REPO`"$CL_RST""
-     git push -u franco mirage
+     git push -u franco $BRANCH
 else
-     echo -e $CL_CYN"Pushing commits to "$CL_RST""remote="$CL_CYN"franco" "$CL_RST""branch="$CL_CYN"mirage""$CL_RST
-     echo -e "REPOSITORY: "$CL_CYN"`echo $REPO`"$CL_RST""
-     git push -u franco mirage
+     echo -e $CL_YLW"Pushing commits to "$CL_RST""remote="$CL_CYN"franco" "$CL_RST""branch="$CL_CYN"$BRANCH""$CL_RST
+     echo -e "REPOSITORY: "$CL_YLW"`echo $REPO`"$CL_RST""
+     git push -u franco $BRANCH
 fi
