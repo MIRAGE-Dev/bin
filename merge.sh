@@ -1,1 +1,1 @@
-git fetch slim && git merge slim/jb4.2
+git fetch paranoid && git merge paranoid/jellybean
